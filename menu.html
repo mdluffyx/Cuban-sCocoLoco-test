@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Cuban's Coco Loco</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Cuban's Coco Loco Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="menu-banner">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <p>Authentic Cuban cuisine with a touch of tropical flavor</p>
+            </div>
+        </section>
+
+        <section class="menu-content">
+            <div class="container">
+                <div class="menu-categories">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="appetizers">Appetizers</button>
+                    <button class="category-btn" data-category="area-fria">Area Fría</button>
+                    <button class="category-btn" data-category="entrees">Entrées</button>
+                    <button class="category-btn" data-category="seafood">Seafood</button>
+                    <button class="category-btn" data-category="salads">Salads</button>
+                    <button class="category-btn" data-category="sides">Sides</button>
+                    <button class="category-btn" data-category="desserts">Desserts</button>
+                    <button class="category-btn" data-category="beverages">Beverages</button>
+                </div>
+
+                <!-- Appetizers Section -->
+                <div class="menu-section" data-category="appetizers">
+                    <h3>Appetizers</h3>
+                    <div class="menu-grid">
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/tostones-boniato.jpg" alt="Tostones De Boniato">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Tostones De Boniato</h4>
+                                    <div class="dish-price">$16.35</div>
+                                </div>
+                                <div class="dish-desc">Tasajo, boniato, pimiento, ajo, cebolla, comino, laurel, vino seco, salsa de tomate, aceite, cilantro</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/empanada-cubano.jpg" alt="Empanada Sandwich Cubano">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Empanada Sandwich Cubano</h4>
+                                    <div class="dish-price">$11.99</div>
+                                </div>
+                                <div class="dish-desc">Hoja de empanada, Dijon mostaza, costilla asada, jamón, queso suizo, cebolla caramelizada</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/croqueta-pulpo.jpg" alt="Croqueta De Pulpo Y Camarones">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Croqueta De Pulpo Y Camarones</h4>
+                                    <div class="dish-price">$11.50</div>
+                                </div>
+                                <div class="dish-desc">Pulpo, camarón, cebolla, harina, mantequilla, leche, guisantes, ajo, perejil</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/croqueta-quesos.jpg" alt="Croqueta 4 Quesos">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Croqueta 4 Quesos</h4>
+                                    <div class="dish-price">$9.75</div>
+                                </div>
+                                <div class="dish-desc">Mantequilla, harina, leche, pimienta, nuez moscada, cebolla, 4 quesos (azul, provolone, parmesano, suizo)</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/coconut-shrimp.jpg" alt="Coconut Shrimp">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Coconut Shrimp</h4>
+                                    <div class="dish-price">$12.95</div>
+                                </div>
+                                <div class="dish-desc">Camarón, coco, pan rayado, huevo, limón</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/camaron-ajillo.jpg" alt="Camarón Al Ajillo">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Camarón Al Ajillo</h4>
+                                    <div class="dish-price">$18.55</div>
+                                </div>
+                                <div class="dish-desc">Camarón, ajo, aceite mezclado (oliva, semilla), guindilla, pan baguette, perejil</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cold Starters Section -->
+                <div class="menu-section" data-category="area-fria">
+                    <h3>Area Fría</h3>
+                    <div class="menu-grid">
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/coctel-camarones.jpg" alt="Coctel De Camarones">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Coctel De Camarones</h4>
+                                    <div class="dish-price">$17.50</div>
+                                </div>
+                                <div class="dish-desc">Fresh shrimp cocktail served with our special sauce</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/ceviche.jpg" alt="Ceviche">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Ceviche</h4>
+                                    <div class="dish-price">$15.45</div>
+                                </div>
+                                <div class="dish-desc">Fresh seafood marinated in citrus juices with herbs and spices</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/carpaccio.jpg" alt="Carpaccio De Res">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Carpaccio De Res</h4>
+                                    <div class="dish-price">$19.35</div>
+                                </div>
+                                <div class="dish-desc">Thinly sliced raw beef with special dressing and garnishes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Entrées Section -->
+                <div class="menu-section" data-category="entrees">
+                    <h3>Entrées</h3>
+                    <div class="menu-grid">
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/sabana-encebollada.jpg" alt="Sabana Encebollada">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Sabana Encebollada</h4>
+                                    <div class="dish-price">$26.85</div>
+                                </div>
+                                <div class="dish-desc">Lomo de res, sazón de carne, pimienta, cebolla, sal, aceite oliva, papa frita</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/churrasco.jpg" alt="Guajiro Steak (Churrasco)">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Guajiro Steak (Churrasco)</h4>
+                                    <div class="dish-price">$28.85</div>
+                                </div>
+                                <div class="dish-desc">Churrasco, sazón de carne, pimienta, ajo, cebolla, pimiento, tomate, aceite oliva, vino tinto</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/ropa-vieja.jpg" alt="Ropa Vieja">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Ropa Vieja</h4>
+                                    <div class="dish-price">$24.50</div>
+                                </div>
+                                <div class="dish-desc">Tender shredded beef slow-cooked in a flavorful tomato sauce with bell peppers and onions</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/lechon-asado.jpg" alt="Lechon Asado">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Lechon Asado</h4>
+                                    <div class="dish-price">$22.90</div>
+                                </div>
+                                <div class="dish-desc">Slow-roasted marinated pork in a traditional Cuban style</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/arroz-de-mar.jpg" alt="Arroz De Mar">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Arroz De Mar</h4>
+                                    <div class="dish-price">$29.45</div>
+                                </div>
+                                <div class="dish-desc">Arroz arborio, camarón, gamba, mejillones, calamar, cebolla, ajo, caldo de mariscos, vino blanco</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/milanesa-pollo.jpg" alt="Milanesa D Pollo">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Milanesa D Pollo</h4>
+                                    <div class="dish-price">$20.35</div>
+                                </div>
+                                <div class="dish-desc">Breaded chicken cutlet served in traditional Cuban style</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seafood Specialties Section -->
+                <div class="menu-section" data-category="seafood">
+                    <h3>Seafood Specialties</h3>
+                    <div class="menu-grid">
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/filete-pescado.jpg" alt="Filete De Pescado">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Filete De Pescado</h4>
+                                    <div class="dish-price">$26.70</div>
+                                </div>
+                                <div class="dish-desc">Filete pargo, sal pimienta, aceite oliva, ajo, limones, servido con papas panaderas</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/pies-secos.jpg" alt="Pies Secos-Pies Mojados">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Pies Secos-Pies Mojados</h4>
+                                    <div class="dish-price">$120.00</div>
+                                </div>
+                                <div class="dish-desc">Langosta 1/2, pescado 1/2, 4 gambas, oliva, sal pimienta, tomate al ajo, papas panaderas</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/bote-langosta.jpg" alt="Bote D Langosta">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Bote D Langosta</h4>
+                                    <div class="dish-price">$46.90</div>
+                                </div>
+                                <div class="dish-desc">Langosta cola 2 entera 1, mantequilla, ajo, limón, sal, pimienta, apio, lechuga, tomate cherry</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/bacalao.jpg" alt="Bacalao Gurmet">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Bacalao Gurmet</h4>
+                                    <div class="dish-price">$28.00</div>
+                                </div>
+                                <div class="dish-desc">Gourmet cod prepared in traditional Cuban style</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salads Section -->
+                <div class="menu-section" data-category="salads">
+                    <h3>Salads</h3>
+                    <div class="menu-grid">
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/loco-cesar.jpg" alt="Loco Cesar">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Loco Cesar</h4>
+                                    <div class="dish-price">$11.80</div>
+                                </div>
+                                <div class="dish-desc">Lechuga, queso parmesano, house dressing</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/taco-salad.jpg" alt="Taco Salad">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Taco Salad (Ensalada De La Casa)</h4>
+                                    <div class="dish-price">$11.50</div>
+                                </div>
+                                <div class="dish-desc">Tortilla, tomate, pepino, col, avocado</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/ensalada-tomate.jpg" alt="Ensalada De Tomate">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Ensalada De Tomate</h4>
+                                    <div class="dish-price">$5.35</div>
+                                </div>
+                                <div class="dish-desc">Fresh tomato salad with special dressing</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/ensalada-estacion.jpg" alt="Ensalada Estación">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Ensalada Estación</h4>
+                                    <div class="dish-price">$11.50</div>
+                                </div>
+                                <div class="dish-desc">Seasonal salad with fresh ingredients</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sides Section -->
+                <div class="menu-section" data-category="sides">
+                    <h3>Sides</h3>
+                    <div class="menu-grid">
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/arroz-blanco.jpg" alt="Arroz Blanco">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Arroz Blanco</h4>
+                                    <div class="dish-price">$3.50</div>
+                                </div>
+                                <div class="dish-desc">White rice with aceite, sal</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/arroz-coco.jpg" alt="Arroz Con Coco">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Arroz Con Coco</h4>
+                                    <div class="dish-price">$4.25</div>
+                                </div>
+                                <div class="dish-desc">Arroz, leche coco, cebollino, mantequilla, sal</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/moros-cristianos.jpg" alt="Moros Y Cristianos">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Moros Y Cristianos</h4>
+                                    <div class="dish-price">$4.25</div>
+                                </div>
+                                <div class="dish-desc">Traditional Cuban rice and black beans cooked together</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/platano-maduro.jpg" alt="Platano Maduro">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Platano Maduro</h4>
+                                    <div class="dish-price">$4.25</div>
+                                </div>
+                                <div class="dish-desc">Sweet fried plantains</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/yuca-mojo.jpg" alt="Yuca Con Mojo">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Yuca Con Mojo</h4>
+                                    <div class="dish-price">$4.25</div>
+                                </div>
+                                <div class="dish-desc">Yuca, cebolla, ajo, limón, comino, perejil</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts Section -->
+                <div class="menu-section" data-category="desserts">
+                    <h3>Desserts</h3>
+                    <div class="menu-grid">
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/flan.jpg" alt="Flan">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Flan</h4>
+                                    <div class="dish-price">$6.99</div>
+                                </div>
+                                <div class="dish-desc">Traditional Cuban caramel custard</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/tres-leches.jpg" alt="Tres Leches">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Tres Leches</h4>
+                                    <div class="dish-price">$7.99</div>
+                                </div>
+                                <div class="dish-desc">Sponge cake soaked in three kinds of milk</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/guava-pastry.jpg" alt="Guava Pastry">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Pastelitos de Guayaba</h4>
+                                    <div class="dish-price">$5.99</div>
+                                </div>
+                                <div class="dish-desc">Flaky pastry filled with sweet guava</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/rice-pudding.jpg" alt="Rice Pudding">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Arroz con Leche</h4>
+                                    <div class="dish-price">$5.99</div>
+                                </div>
+                                <div class="dish-desc">Creamy rice pudding with cinnamon and vanilla</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beverages Section -->
+                <div class="menu-section" data-category="beverages">
+                    <h3>Beverages</h3>
+                    <div class="menu-grid">
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/cuban-coffee.jpg" alt="Cuban Coffee">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Café Cubano</h4>
+                                    <div class="dish-price">$2.99</div>
+                                </div>
+                                <div class="dish-desc">Strong, sweet Cuban espresso</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/cafe-con-leche.jpg" alt="Cafe con Leche">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Café con Leche</h4>
+                                    <div class="dish-price">$3.99</div>
+                                </div>
+                                <div class="dish-desc">Cuban coffee with steamed milk</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/mojito.jpg" alt="Mojito">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Mojito</h4>
+                                    <div class="dish-price">$8.99</div>
+                                </div>
+                                <div class="dish-desc">Classic Cuban cocktail with rum, mint, lime, and soda</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/cuba-libre.jpg" alt="Cuba Libre">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Cuba Libre</h4>
+                                    <div class="dish-price">$7.99</div>
+                                </div>
+                                <div class="dish-desc">Rum, cola, and lime</div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-dish">
+                            <div class="dish-image">
+                                <img src="images/menu/tropical-juice.jpg" alt="Tropical Juice">
+                            </div>
+                            <div class="dish-info">
+                                <div class="dish-name">
+                                    <h4>Tropical Juices</h4>
+                                    <div class="dish-price">$3.99</div>
+                                </div>
+                                <div class="dish-desc">Fresh juices including mango, guava, and passion fruit</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Cuban's Coco Loco Logo">
+                    <p>Authentic Cuban cuisine in the heart of Cape Coral.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 1311 Del Prado Blvd S, Cape Coral, FL 33990</p>
+                    <p><i class="fas fa-phone"></i> (239) 471-7792</p>
+                    <p><i class="fas fa-envelope"></i> info@cubanscocoloco.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/cubancocoloco/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/cubanscocoloco/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cuban's Coco Loco. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

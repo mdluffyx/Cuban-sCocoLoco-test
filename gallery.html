@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Cuban's Coco Loco</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Cuban's Coco Loco Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery-banner">
+            <div class="container">
+                <h1>Our Gallery</h1>
+                <p>Explore the flavors and atmosphere of Cuban's Coco Loco</p>
+            </div>
+        </section>
+
+        <section class="gallery-content">
+            <div class="container">
+                <div class="gallery-filter">
+                    <button class="active" data-filter="all">All</button>
+                    <button data-filter="food">Food</button>
+                    <button data-filter="drinks">Drinks</button>
+                    <button data-filter="restaurant">Restaurant</button>
+                    <button data-filter="events">Events</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Food Images -->
+                    <div class="gallery-item" data-category="food">
+                        <img src="images/gallery/cuban-sandwich.jpg" alt="Cuban Sandwich">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="food">
+                        <img src="images/gallery/ropa-vieja-plate.jpg" alt="Ropa Vieja">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="food">
+                        <img src="images/gallery/lechon-asado.jpg" alt="Lechon Asado">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="food">
+                        <img src="images/gallery/empanadas.jpg" alt="Empanadas">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="food">
+                        <img src="images/gallery/tres-leches.jpg" alt="Tres Leches Cake">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="food">
+                        <img src="images/gallery/flan.jpg" alt="Flan">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+
+                    <!-- Drinks Images -->
+                    <div class="gallery-item" data-category="drinks">
+                        <img src="images/gallery/mojito.jpg" alt="Mojito">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drinks">
+                        <img src="images/gallery/cuba-libre.jpg" alt="Cuba Libre">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drinks">
+                        <img src="images/gallery/cuban-coffee.jpg" alt="Cuban Coffee">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drinks">
+                        <img src="images/gallery/tropical-drinks.jpg" alt="Tropical Drinks">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant Images -->
+                    <div class="gallery-item" data-category="restaurant">
+                        <img src="images/gallery/restaurant-exterior.jpg" alt="Restaurant Exterior">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="restaurant">
+                        <img src="images/gallery/dining-area-1.jpg" alt="Dining Area">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="restaurant">
+                        <img src="images/gallery/dining-area-2.jpg" alt="Dining Area Night">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="restaurant">
+                        <img src="images/gallery/bar-area.jpg" alt="Bar Area">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="restaurant">
+                        <img src="images/gallery/kitchen.jpg" alt="Kitchen">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+
+                    <!-- Events Images -->
+                    <div class="gallery-item" data-category="events">
+                        <img src="images/gallery/live-music.jpg" alt="Live Music Night">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <img src="images/gallery/salsa-night.jpg" alt="Salsa Night">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <img src="images/gallery/private-party.jpg" alt="Private Party">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <img src="images/gallery/cooking-class.jpg" alt="Cuban Cooking Class">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="instagram-feed">
+            <div class="container">
+                <h2>Follow Us on Instagram</h2>
+                <p class="subtitle">Stay updated with our latest dishes and events by following us <a href="https://www.instagram.com/cubanscocoloco/" target="_blank">@cubanscocoloco</a></p>
+                <div class="instagram-grid">
+                    <a href="https://www.instagram.com/cubanscocoloco/" target="_blank" class="instagram-item">
+                        <img src="images/instagram/insta1.jpg" alt="Instagram Post">
+                    </a>
+                    <a href="https://www.instagram.com/cubanscocoloco/" target="_blank" class="instagram-item">
+                        <img src="images/instagram/insta2.jpg" alt="Instagram Post">
+                    </a>
+                    <a href="https://www.instagram.com/cubanscocoloco/" target="_blank" class="instagram-item">
+                        <img src="images/instagram/insta3.jpg" alt="Instagram Post">
+                    </a>
+                    <a href="https://www.instagram.com/cubanscocoloco/" target="_blank" class="instagram-item">
+                        <img src="images/instagram/insta4.jpg" alt="Instagram Post">
+                    </a>
+                    <a href="https://www.instagram.com/cubanscocoloco/" target="_blank" class="instagram-item">
+                        <img src="images/instagram/insta5.jpg" alt="Instagram Post">
+                    </a>
+                    <a href="https://www.instagram.com/cubanscocoloco/" target="_blank" class="instagram-item">
+                        <img src="images/instagram/insta6.jpg" alt="Instagram Post">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Cuban's Coco Loco Logo">
+                    <p>Authentic Cuban cuisine in the heart of Cape Coral.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 1311 Del Prado Blvd S, Cape Coral, FL 33990</p>
+                    <p><i class="fas fa-phone"></i> (239) 471-7792</p>
+                    <p><i class="fas fa-envelope"></i> info@cubanscocoloco.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/cubancocoloco/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/cubanscocoloco/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cuban's Coco Loco. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
